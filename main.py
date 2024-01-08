@@ -16,5 +16,8 @@ class Test_class:
 
 if __name__ == "__main__":
     print("test")
+    while True:
+        a = str(input())
+        print(a)
 
 
