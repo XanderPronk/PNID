@@ -7,7 +7,11 @@ class TestCalculations(unittest.TestCase):
         test = Test_class(8, 2)
         self.assertEqual(test.get_sum(), 10, 'The sum is wrong.')
         self.assertEqual(test.get_difference(), 6, 'The difference is wrong.')
-        self.assertEqual(test.test_fun(), True, "Not equal.")
 
+    def test_random(self):
+        test = Test_class(8, 2)
+        self.assertEqual(test.test_fun(), False, "Not equal.")
+        self.assertLess(test.test_één(), 4, "Ja dat ging dus fout")
+    
 if __name__ == '__main__':
     unittest.main()
