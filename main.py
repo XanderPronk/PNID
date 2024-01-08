@@ -12,6 +12,8 @@ class Test_class:
         return self.a / self.b
     def test_fun(self):
         return True
+    def test_één(self):
+        return 1
 
 
 if __name__ == "__main__":
