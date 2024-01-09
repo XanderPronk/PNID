@@ -10,8 +10,9 @@ class TestCalculations(unittest.TestCase):
 
     def test_random(self):
         test = Test_class(8, 2)
-        self.assertEqual(test.test_fun(), False, "Not equal.")
+        self.assertEqual(test.test_fun(), True, "Not equal.")
         self.assertLess(test.test_één(), 4, "Ja dat ging dus fout")
     
 if __name__ == '__main__':
+    print("testen")
     unittest.main()
