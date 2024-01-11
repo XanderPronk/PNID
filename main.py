@@ -14,6 +14,8 @@ class Test_class:
         return True
     def test_één(self):
         return 1
+    def nieuwe_functie(self, a):
+        return a
 
 
 if __name__ == "__main__":
