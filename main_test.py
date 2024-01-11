@@ -9,9 +9,12 @@ class TestCalculations(unittest.TestCase):
         self.assertEqual(test.get_difference(), 6, 'The difference is wrong.')
 
     def test_nieuw(self):
-        test = Test_class(8, 2)
+        test = Test_class(0, 0)
         self.assertEqual(test.test_fun(), True, "Waardes niet gelijk.")
         self.assertLess(test.test_één(), 4, "Ja dat ging dus fout")
+        
+    def test_nieuw2(self):
+        test = Test_class(0, 0)
         self.assertEqual(test.nieuwe_functie(1), 1, "Waardes zijn niet gelijk!")
     
 if __name__ == '__main__':
